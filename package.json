@@ -1,0 +1,33 @@
+{
+  "name": "cat-stores",
+  "version": "0.0.1",
+  "description": "Redux store without ugly reducers names, ugly case operators and other ugly stuff",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "babel --stage 0 lib/ --out-dir dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parakhod/cat-stores.git"
+  },
+  "keywords": [
+    "redux",
+    "store",
+    "reducer",
+    "async"
+  ],
+  "author": "Andrey Korinskiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parakhod/cat-stores/issues"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "homepage": "https://github.com/parakhod/cat-stores#readme",
+  "dependencies": {
+    "redux-feline-actions": "0.0.2"
+  }
+}
